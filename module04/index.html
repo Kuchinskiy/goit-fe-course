@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homework4</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="main-header">
+  <header class="main-header container">
       <nav class="main-nav">
           <h1 class="site-logo">
               <a href="#">MART</a>
@@ -37,13 +39,20 @@
       </nav>
   </header>
 
-  <main class="main-content">
+  <main class="main-content container">
       <section class="products">
           <h2 class="products-title">featured products</h2>
           <ul class="products-list">
               <li class="products-list-item">
                   <img src="img/item1.png" alt="products">
-                  <p>blue shirt26</p>
+                  <div class="wrapper">
+                      <div class="name_box">
+                          <p class="name">blue shirt</p>
+                      </div>
+                      <div class="price_box">
+                          <p class="price">&#36 26</p>
+                      </div>
+                  </div>
               </li>
               <li class="products-list-item">
                   <img src="img/item2.png" alt="products">
