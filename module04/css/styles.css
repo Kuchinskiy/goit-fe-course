@@ -56,7 +56,7 @@ img {
 
 .site-menu li {
     float: left;
-    margin-right: 38px;
+    margin-right: 40px;
     font-size: 14px;
     list-style: none;
     margin-top: 10px;
@@ -82,3 +82,78 @@ img {
 nav {
     margin-bottom: 90px;
 }
+
+/* main-content */
+
+.products-title {
+    padding-bottom: 90px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+h2::after {
+    display: block;
+    width: 160px;
+    height: 7px;
+    background-color: #1abc9c;
+    content: "";
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.products-title {
+    margin-bottom: 90px;
+}
+
+.products-list-item p {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 6px 0;
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+.name_box {
+    background-color: #000000;
+    float: left;
+    width: 80%;
+}
+
+price_box {
+    background-color: #8c8c8c;
+    float: left;
+    width: 20%;
+}
+
+p {
+    margin: 0;
+}
+
+.products-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.products-list-item {
+    width: 255px;
+    float: left;
+}
+
+.products-list-item:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
+.products-list-item:not(:nth-last-child(-n + 4)) {
+    margin-bottom: 30px;
+}
+
+
+
+
