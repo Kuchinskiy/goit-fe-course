@@ -83,7 +83,7 @@ nav {
     margin-bottom: 90px;
 }
 
-/* main-content */
+/* main-content SECTION_1 */
 
 .products-title {
     padding-bottom: 90px;
@@ -125,7 +125,7 @@ h2::after {
     width: 80%;
 }
 
-price_box {
+.price_box {
     background-color: #8c8c8c;
     float: left;
     width: 20%;
@@ -154,6 +154,71 @@ p {
     margin-bottom: 30px;
 }
 
+.products-list-item:hover .name_box {
+    background-color: #1abc9c;
+}
 
+.products-list-item:hover .price_box {
+    background-color: #7fd9c7;
+}
 
+/* main-content SECTION_2 */
 
+.news-title {
+    padding-bottom: 80px;
+    margin-top: 95px;
+}
+
+.news-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.news-list-item {
+    width: 350px;
+    float: left;
+}
+
+.news-list-item:not(:nth-last-child(1)) {
+    margin-right: 30px;
+}
+
+.news-list-item img {
+    margin-bottom: 16px;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 45px;
+}
+
+h3::after {
+    display: block;
+    content: "";
+    width: 136px;
+    height: 4px;
+    background-color: #1abc9c;
+    margin-top: 14px;
+}
+
+.news-list-item p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn_more {
+    font-size: 16px;
+    display: block;
+    width: 160px;
+    background-color: #4ec6ab;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 14px 0;
+    text-align: center;
+}
+
+.btn_more {
+    margin-bottom: 50px;
+}
