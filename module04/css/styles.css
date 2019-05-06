@@ -90,7 +90,7 @@ img {
 /* main-content SECTION_1 */
 
 .products {
-    padding-bottom: 90px;
+    margin-bottom: 90px;
 }
 
 h2 {
@@ -208,6 +208,8 @@ h3::after {
     font-weight: 400;
 }
 
+/* BUTTON  URL*/
+
 .btn_more {
     font-size: 16px;
     display: block;
@@ -219,4 +221,3 @@ h3::after {
     text-align: center;
     text-decoration: none;
 }
-
