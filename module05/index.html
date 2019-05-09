@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homework05</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:300,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
     <!-- header -->
     <header class="main-header">
+        <div class="wrapper">
         <nav class="main-nav clearfix">
-            <div class="wrapper"></div>
             <!-- LOGO -->
-            <h1 class="site-logo">
+            <h1 class="site-logo clearfix">
                 <a href="#" class="logo">MART</a></h1>
                 <!-- MENU -->
-                <ul class="site-menu">
+                <ul class="site-menu clearfix">
                     <li class="menu-item"><a href="#" class="menu-link">home</a>
                     </li>
                     <li class="menu-item"><a href="#" class="menu-link">about us</a>
@@ -34,7 +34,29 @@
                     </li>
                 </ul>
         </nav>
+    </div>
     </header>
+
+    <main class="main-content">
+        <section class="slideshow-section">
+            <div class="slideshow-content">
+                <div class="box-ctrl">
+                    <button class="slider-ctrl prev"> <span class="visually-hidden">prev</span> </button>
+                    <button class="slider-ctrl next"> <span class="visually-hidden">next</span></button>
+                </div>
+                <ul class="slider">
+                    <li class="slider-item">
+                        <img class="slideshow-image" src="img/background.png" alt="photo-slides" width="1600" height="600">
+                        <div class="slides-descrip">
+                            <h2 class="slides-title">Affordable Paris Tours</h2>
+                            <p class="slides-subtitle">City Tours <span>&#8260;</span> Tour Tickets <span>&#8260;</span> Tour Guides</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
     
     
 </body>
