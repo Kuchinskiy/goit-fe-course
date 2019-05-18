@@ -101,6 +101,79 @@ div {
 
 /* MAIN */
 
-/* SLIDESHOW SECTION */
+/* SECTION 1 */
+
+.banner {
+    height: 600px;
+    background-color: #181819;
+    background-image: linear-gradient(to right,
+            rgba(24, 24, 25, 0.1),
+            rgba(24, 24, 25, 0.1)),
+        url('../img/banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.text-head {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 208px;
+    padding-left: 184px;
+    padding-bottom: 22px;
+    color: #ffffff;
+}
+
+.bann-text {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    padding-left: 184px;
+}
+
+/* BUTTONS */
+
+.button {
+    position: relative;
+}
+
+.button-left-prev,
+.button-right-next {
+    width: 104px;
+    height: 104px;
+    position: absolute;
+    background: #1abc9c;
+    opacity: 0.5;
+    border: none;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.button-left-prev {
+    bottom: 0;
+    background-image: url(../img/left.png);
+}
+
+.button-right-next {
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/right.png);
+}
+
+.button-left-prev:hover {
+    opacity: 1;
+}
+
+.button-right-next:hover {
+    opacity: 1;
+}
+
+
+
+
 
 
