@@ -1,6 +1,25 @@
+/* DEFAULTS */
 *{
     margin: 0;
     padding: 0;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 html {
@@ -44,8 +63,8 @@ div {
 
 /* header */
 .main-header {
-    padding-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 36px;
 }
 /* LOGO */
 .site-logo {
@@ -101,7 +120,7 @@ div {
 
 /* MAIN */
 
-/* SECTION 1 */
+/* SECTION BANNER BACKGROUND */
 
 .banner {
     height: 600px;
@@ -109,7 +128,8 @@ div {
     background-image: linear-gradient(to right,
             rgba(24, 24, 25, 0.1),
             rgba(24, 24, 25, 0.1)),
-        url('../img/banner.jpg');
+        url('../img/background.png');
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -134,7 +154,7 @@ div {
     padding-left: 184px;
 }
 
-/* BUTTONS */
+/* BUTTONS CONTROLS */
 
 .button {
     position: relative;
@@ -171,7 +191,6 @@ div {
 .button-right-next:hover {
     opacity: 1;
 }
-
 
 
 
