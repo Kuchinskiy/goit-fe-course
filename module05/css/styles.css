@@ -218,6 +218,30 @@ div {
     margin-bottom: 81px;
 }
 
+/* TEAM LIST COLLECTION */
+
+.team-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.item-collection {
+    float: left;
+    /* width: 255px; */
+    margin-right: 30px;
+    color: #ffffff;
+    background-color: #323232;
+}
+
+.item-collection:nth-last-child(1) {
+    margin-right: 0;
+}
+
+
 
 
 
