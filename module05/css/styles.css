@@ -192,6 +192,32 @@ div {
     opacity: 1;
 }
 
+/* SECTION TEAM LIST COLLECTION */
+
+/* HEAD TEXT TITLE */
+
+.collection {
+    margin: 100px;
+}
+
+.title-item {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title-item::after {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    width: 165px;
+    height: 8px;
+    background-color: #1abc9c;
+    margin-top: 32px;
+    margin-bottom: 81px;
+}
+
 
 
 
