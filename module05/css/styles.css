@@ -259,6 +259,7 @@ div {
 
 .item-collection:hover {
     background-color: #1abc9c;
+    transform: scale(1.1);
 }
 
 .item-collection:hover .price {
