@@ -195,6 +195,7 @@ div {
 /* SECTION TEAM LIST COLLECTION */
 
 /* HEAD TEXT TITLE */
+
 .collection {
     padding-top: 100px;
     padding-bottom: 98px;
@@ -220,6 +221,7 @@ div {
 }
 
 /* TEAM LIST */
+
 .team-list {
     margin: 0 auto;
     padding: 0;
@@ -241,6 +243,7 @@ div {
 }
 
 /* STYLE BOX DECORATION */
+
 .box {
     height: 40px;
 }
@@ -292,4 +295,89 @@ div {
 .item-collection:hover .overlay {
     opacity: 1;
 }
+
+/* BUTTONS */
+
+.heart-bt {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 90px;
+    left: 45px;
+    padding: 12px 12px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+}
+
+.heart-bt:hover {
+    border: none;
+    background-color: #1abc9c;
+}
+
+.trash-bt {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 90px;
+    left: 105px;
+    padding: 12px 12px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+}
+
+.trash-bt:hover {
+    border: none;
+    background-color: #1abc9c;
+}
+
+.clock-bt {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 90px;
+    right: 45px;
+    padding: 12px 12px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+}
+
+.clock-bt:hover {
+    border: none;
+    background-color: #1abc9c;
+}
+
+.bk-image {
+    float: left;
+    width: 27px;
+    margin-right: 18px;
+}
+
+.basket-bt {
+    position: absolute;
+    width: 166px;
+    height: 50px;
+    right: 45px;
+    top: 147px;
+    padding: 10px 14px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    background-color: #323232;
+    
+}
+
+.basket-bt:hover {
+    border: none;
+    background-color: #1abc9c;
+}
+
+.basket-bt-text {
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
 
