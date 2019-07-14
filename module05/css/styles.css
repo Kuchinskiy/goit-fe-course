@@ -44,10 +44,6 @@ img {
     height: auto;
 }
 
-.div {
-    box-sizing: border-box;
-}
-
 .clearfix::after {
     display: table;
     content: "";
