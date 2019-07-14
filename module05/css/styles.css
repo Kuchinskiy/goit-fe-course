@@ -44,10 +44,6 @@ img {
     height: auto;
 }
 
-div {
-    box-sizing: border-box;
-}
-
 .clearfix::after {
     display: table;
     content: "";
@@ -381,3 +377,18 @@ div {
 
 /* FOOTER */
 
+.paragraph {
+    width: 100%;
+    padding: 38px 0;
+    font-size: 16px;
+    text-align: center;
+    background-color: #323232;
+}
+
+.brand-text {
+    color: #ffffff;
+}
+
+.symbol-colored {
+    color: #43ac99;
+}
