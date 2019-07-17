@@ -118,7 +118,6 @@ img {
 .menu-link {
     text-decoration: none;
     color: #0f0101;
-    transition: color 0.5s linear;
 }
 
 .menu-item {
@@ -126,6 +125,7 @@ img {
     float: left;
     font-size: 14px;
     padding-top: 10px;
+    transition: all .8s linear;
 }
 
 .menu-item:nth-last-child(1) {
@@ -138,7 +138,6 @@ img {
 
 .menu-item:hover {
     transform: scale(1.4);
-    transition: transform 0.5s ease-in;
 }
 
 /* MAIN */
@@ -259,6 +258,7 @@ img {
     width: 255px;
     margin-right: 30px;
     color: #ffffff;
+    transition: all .8s linear;
 }
 
 .item-collection:nth-last-child(1) {
@@ -296,7 +296,6 @@ img {
 
 .item-collection:hover {
     transform: scale(1.1);
-    transition: transform 0.5s ease-in, box-shadow 0.5s linear;
     box-shadow: 0 14px 28px rgba(24, 24, 25, 0.25), 
     0 10px 10px rgba(24, 24, 25, 0.22);
 }
