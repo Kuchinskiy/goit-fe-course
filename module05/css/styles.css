@@ -57,16 +57,35 @@ img {
 
 /* HEADER */
 
-/* header */
 .main-header {
     margin-top: 40px;
     margin-bottom: 36px;
 }
-/* LOGO */
+
+/* LOGO - ANIMATION*/
+
 .site-logo {
     margin: 0;
     float: left;
     font-weight: 400;
+    animation: logo-appear 3s linear;
+}
+
+@keyframes logo-appear {
+    0% {
+        transform: translateY(-200px);
+        /* opacity: 0; */
+    }
+
+    50% {
+        transform: translateY(0);
+        /* opacity: 1; */
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .logo::first-letter {
@@ -80,7 +99,9 @@ img {
     text-decoration: none;
     color: #0f0101;
 }
-/* MENU */
+
+/* MENU NAVIGATION*/
+
 .site-menu {
     margin: 0;
     padding: 0;
@@ -269,6 +290,9 @@ img {
 
 .item-collection:hover {
     transform: scale(1.1);
+    transition: transform 0.5s ease-in, box-shadow 0.5s linear;
+    box-shadow: 0 14px 28px rgba(24, 24, 25, 0.25), 
+    0 10px 10px rgba(24, 24, 25, 0.22);
 }
 
 /* POSITION ACTIVE HOVER OVERLAY */
