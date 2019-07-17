@@ -118,6 +118,7 @@ img {
 .menu-link {
     text-decoration: none;
     color: #0f0101;
+    transition: color 0.5s linear;
 }
 
 .menu-item {
@@ -133,6 +134,11 @@ img {
 
 .menu-item:hover .menu-link{
     color: #1abc9c;
+}
+
+.menu-item:hover {
+    transform: scale(1.4);
+    transition: transform 0.5s ease-in;
 }
 
 /* MAIN */
