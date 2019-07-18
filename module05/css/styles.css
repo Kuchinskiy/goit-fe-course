@@ -68,7 +68,9 @@ img {
     margin: 0;
     float: left;
     font-weight: 400;
-    animation: logo-appear 3s linear;
+    animation: logo-appear 5s linear;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
 }
 
 @keyframes logo-appear {
