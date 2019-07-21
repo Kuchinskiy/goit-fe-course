@@ -78,15 +78,27 @@ img {
     font-weight: 700;
     color: #95e1d3;
     text-decoration: none;
+    animation: logo-rotate 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo-rotate {
+    from {
+    }
+    to {
+      transform: rotate(360deg);
+    }
 }
 
 .menu-nav {
     display: flex;
     width: 490px;
-    margin: 0;
-    padding: 0;
     justify-content: space-between;
     list-style: none;
+}
+
+.list-menu {
+    transition: all 200ms linear;
 }
 
 .menu-link {
@@ -97,5 +109,24 @@ img {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.menu-link:hover {
+    color: #f38181;
+}
+
+.menu-link:hover::after {
+    display: block;
+    content: '';
+    margin-top: 12px;
+    width: 100%;
+    border: 1px solid #f38181;
+}
+
+.list-menu:hover {
+    transform: scale(1.4);
+}
+
+/* MAIN CONTENT */
+
 
 
