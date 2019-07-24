@@ -221,6 +221,7 @@ img {
 
 .page-item-team {
     padding-top: 90px;
+    padding-bottom: 85px;
 }
 
 .text-section-team {
@@ -237,3 +238,23 @@ img {
     justify-content: space-between;
     list-style: none;
 }
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    margin-top: 30px;
+}
+
+.position {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    color: #b3b3b3;
+}
+
+/* FOOTER */
+
