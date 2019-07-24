@@ -269,7 +269,7 @@ img {
     height: 470px;
     opacity: 0;
     background-image: linear-gradient(
-         90deg, 
+         0deg, 
          rgba(252,227,138, 0.7) 0%, 
          rgba(243,129,129, 0.7) 100%
          );
@@ -280,5 +280,33 @@ img {
     opacity: 1;
     box-shadow: 10px 10px #95e1d3;
 }
+
+.social-link:hover {
+    background-color: #95e1d3;
+}
+
+.team-item:hover .command {
+    transform: translate(-10px, -10px);
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+}
+
+.social-link {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-color 200ms;
+    margin-right: 1px;
+}
+
+
+
+
 
 /* FOOTER */
