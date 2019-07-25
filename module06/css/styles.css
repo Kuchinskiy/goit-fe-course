@@ -364,6 +364,10 @@ img {
     color: #b3b3b3;
 }
 
+.mail-password:hover {
+    border-color: #f16c1f;
+}
+
 .subscribe-btn {
     height: 40px;
     width: 150px;
