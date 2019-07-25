@@ -328,8 +328,6 @@ img {
     justify-content: space-between;
     align-items: center;
     min-height: 64px;
-    max-width: 1200px;
-    margin: 0 auto;
     border-top: 1px solid #e5e5e5;
 }
 
@@ -341,13 +339,34 @@ img {
 
 .color-text {
     color: #f9c0c0;
+    text-decoration: none;
 }
 
 /* SUBSCRIBE-EMAIL-BUTTON */
 
+.form-mail {
+    display: flex;
+}
+
 .mail {
-    margin: 0;
     height: 40px;
     width: 230px;
     padding: 10px 8px;
+    font-style: italic;
+    border: 1px solid #e5e5e5;
+}
+
+.mail::placeholder {
+    color: #b3b3b3;
+}
+
+.subscribe-btn {
+    height: 40px;
+    width: 150px;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #95e1d3;
 }
