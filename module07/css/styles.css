@@ -34,10 +34,6 @@ html {
 }
 
 body {
-    font-family: 'Kaushan Script';
-    font-family: 'Montserrat';
-    font-family: 'Noto Serif';
-    font-family: 'Roboto Slab';
     margin: 0;
 }
 
@@ -56,14 +52,14 @@ img {
 
     /* LOGO */
 
-    /* kaushan-script-regular - latin */
+   /* clicker-script-regular - latin */
 @font-face {
-    font-family: 'Kaushan Script';
+    font-family: 'Clicker Script';
     font-style: normal;
     font-weight: 400;
-    src: local('Kaushan Script'), local('KaushanScript-Regular'),
-         url('../fonts/kaushan/kaushan-script-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/kaushan/kaushan-script-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: local('Clicker Script'), local('ClickerScript-Regular'),
+         url('../fonts/clicker_script/clicker-script-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/clicker_script/clicker-script-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
   /* NAVIGATION - SECTION */
@@ -108,4 +104,79 @@ img {
          url('../fonts/roboto_slab/roboto-slab-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/roboto_slab/roboto-slab-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+
+/* HEADER */
+
+.page-nav {
+    padding-top: 42px;
+    padding-bottom: 115px;
+}
+
+.page-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.site-logo {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-page {
+    display: block;
+    font-size: 40px;
+    color: #fed136;
+    text-decoration: none;
+    font-family: 'Clicker Script';
+    animation: logo-rotate 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo-rotate {
+    from {
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.menu-nav {
+    display: flex;
+    width: 485px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.list-menu {
+    height: 40px;
+    transition: all .5s linear;
+}
+
+.menu-link {
+    display: block;
+    font-size: 14px;
+    color: #5d5d5d;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+.menu-link:hover {
+    color: #fed136;
+}
+
+.menu-link:hover::after {
+    display: block;
+    content: '';
+    width: 100%;
+    color: #fed136;
+    margin-top: 10px;
+    border: 1px solid #fed136;
+}
+
+.list-menu:hover {
+    transform: scale(1.3);
+}
 
