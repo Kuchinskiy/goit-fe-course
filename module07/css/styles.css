@@ -129,17 +129,17 @@ img {
     color: #fed136;
     text-decoration: none;
     font-family: 'Clicker Script';
-    animation: logo-rotate 3s;
-    animation-iteration-count: infinite;
+    /* animation: logo-rotate 3s;
+    animation-iteration-count: infinite; */
 }
 
-@keyframes logo-rotate {
+/* @keyframes logo-rotate {
     from {
     }
     to {
       transform: rotate(360deg);
     }
-}
+} */
 
 .menu-nav {
     display: flex;
@@ -179,4 +179,74 @@ img {
 .list-menu:hover {
     transform: scale(1.3);
 }
+
+/* MAIN CONTENT */
+
+.title-section {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.subtitle-information {
+    font-size: 16px;
+    font-family: 'Noto Serif';
+    text-align: center;
+    margin-top: 18px;
+    color: #808080;
+}
+
+/* SECTION #1 */
+
+.page-information {
+    padding-bottom: 100px;
+}
+
+.list-icons {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.list-name {
+    flex-basis: 290px;
+    text-align: center;
+}
+
+.title-item {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    margin-bottom: 16px;
+}
+
+.paragraph {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto Slab';
+}
+
+.list-name::before {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+
+.list-name:nth-child(1):before {
+    content: url(../img/Basket.png)
+}
+
+.list-name:nth-child(2):before {
+    content: url(../img/Laptop.png)
+}
+
+.list-name:nth-child(3):before {
+    content: url(../img/Locked.png)
+}
+
 
