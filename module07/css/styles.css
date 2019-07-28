@@ -34,6 +34,10 @@ html {
 }
 
 body {
+    font-family: 'Kaushan Script';
+    font-family: 'Montserrat';
+    font-family: 'Noto Serif';
+    font-family: 'Roboto Slab';
     margin: 0;
 }
 
@@ -43,12 +47,14 @@ img {
     height: auto;
 }
 
-/* .wrapper {
-    width: 1200px;
-    margin: 0 auto; */
-
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
 
     /* FONTS */
+
+    /* LOGO */
 
     /* kaushan-script-regular - latin */
 @font-face {
@@ -56,9 +62,11 @@ img {
     font-style: normal;
     font-weight: 400;
     src: local('Kaushan Script'), local('KaushanScript-Regular'),
-         url('../fonts/kaushan-script-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/kaushan-script-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/kaushan/kaushan-script-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/kaushan/kaushan-script-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+
+  /* NAVIGATION - SECTION */
 
   /* montserrat-regular - latin */
 @font-face {
@@ -66,8 +74,38 @@ img {
     font-style: normal;
     font-weight: 400;
     src: local('Montserrat Regular'), local('Montserrat-Regular'),
-         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/montserrat/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
-  
+  /* SECTION #1 & #2 */
+
+  /* noto-serif-italic - latin */
+@font-face {
+    font-family: 'Noto Serif';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Noto Serif Italic'), local('NotoSerif-Italic'),
+         url('../fonts/noto_serif/noto-serif-v8-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/noto_serif/noto-serif-v8-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url('../fonts/roboto_slab/roboto-slab-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto_slab/roboto-slab-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
