@@ -273,6 +273,57 @@ img {
     background-repeat: no-repeat;
 }
 
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.contact-input-box {
+    width: 455px;
+}
+
+.contact-form-input {
+    width: 100%;
+    padding: 14px;
+}
+
+.contact-form-input:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+.contact-form-input:not(:last-child):valid,
+.contact-form-textarea:valid {
+  outline: 2px solid green;
+}
+
+.contact-form-input:not(:last-child):invalid,
+.contact-form-textarea:invalid {
+  outline: 2px solid red;
+}
+
+.contact-form-input::placeholder,
+.contact-form-textarea::placeholder {
+    font-size: 14px;
+    color: #bbbbbb;
+    text-transform: uppercase;
+}
+
+.textarea-wrapper {
+    width: 455px;
+}
+
+.contact-form-textarea {
+    height: 100%;
+    width: 100%;
+    resize: none;
+    padding: 14px;
+}
+
+
+
+
+
 
 
 
