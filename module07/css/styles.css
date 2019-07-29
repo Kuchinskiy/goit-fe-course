@@ -108,8 +108,8 @@ img {
 /* HEADER */
 
 .page-nav {
-    padding-top: 42px;
-    padding-bottom: 115px;
+    padding-top: 2.625rem;
+    padding-bottom: 7.1875rem;
 }
 
 .page-menu {
@@ -125,7 +125,7 @@ img {
 
 .logo-page {
     display: block;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #fed136;
     text-decoration: none;
     font-family: 'Clicker Script';
@@ -143,19 +143,19 @@ img {
 
 .menu-nav {
     display: flex;
-    width: 485px;
+    width: 30.3125rem;
     list-style: none;
     justify-content: space-between;
 }
 
 .list-menu {
-    height: 40px;
+    height: 2.5rem;
     transition: all .5s linear;
 }
 
 .menu-link {
     display: block;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #5d5d5d;
     font-weight: 700;
     text-decoration: none;
@@ -174,13 +174,13 @@ img {
     width: 100%;
     color: #fed136;
     transition: all .7s linear;
-    margin-top: 0px;
+    margin-top: 0rem;
     border: 1px solid #fed136;
 }
 
 .menu-link:hover::after {
     opacity: 1;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .list-menu:hover {
@@ -190,16 +190,16 @@ img {
 /* MAIN CONTENT */
 
 .title-section {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: 700;
     font-family: 'Montserrat';
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .subtitle-information {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Noto Serif';
     text-align: center;
     color: #808080;
@@ -208,8 +208,8 @@ img {
 /* SECTION #1 */
 
 .page-information {
-    padding-top: 70px;
-    padding-bottom: 100px;
+    padding-top: 4.375rem;
+    padding-bottom: 6.25rem;
 }
 
 .list-icons {
@@ -219,20 +219,20 @@ img {
 }
 
 .list-name {
-    flex-basis: 290px;
+    flex-basis: 18.125rem;
     text-align: center;
 }
 
 .title-item {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     font-family: 'Montserrat';
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .paragraph {
     color: #808080;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     font-style: normal;
     font-family: 'Roboto Slab';
@@ -241,7 +241,7 @@ img {
 .list-name::before {
     display: block;
     margin: 0 auto;
-    margin-bottom: 26px;
+    margin-bottom: 1.625rem;
 }
 
 .list-name:nth-child(1):before {
@@ -259,22 +259,22 @@ img {
 /* SECTION #2 */
 
 .title-section-color {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: 700;
     font-family: 'Montserrat';
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     color: #ffffff;
 }
 
 .subtitle-information {
-    margin-bottom: 75px;
+    margin-bottom: 4.6875rem;
 }
 
 .contact-section {
-    padding-top: 106px;
-    padding-bottom: 115px;
+    padding-top: 6.625rem;
+    padding-bottom: 7.1875rem;
     background-image: url(../img/bg-section.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -283,35 +283,35 @@ img {
 .contact-box {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
 }
 
 .contact-input-box {
-    width: 455px;
+    width: 28.4375rem;
 }
 
 .contact-form-input {
     width: 100%;
-    padding: 14px;
+    padding: 0.875rem;
 }
 
 .contact-form-input:not(:last-child) {
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
 }
 
 .contact-form-input:not(:last-child):valid,
 .contact-form-textarea:valid {
-  outline: 2px solid green;
+  outline: 0.125rem solid green;
 }
 
 .contact-form-input:not(:last-child):invalid,
 .contact-form-textarea:invalid {
-  outline: 2px solid red;
+  outline: 0.125rem solid red;
 }
 
 .contact-form-input::placeholder,
 .contact-form-textarea::placeholder {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #bbbbbb;
     text-transform: uppercase;
     font-weight: 700;
@@ -319,26 +319,26 @@ img {
 }
 
 .textarea-wrapper {
-    width: 455px;
+    width: 28.4375rem;
 }
 
 .contact-form-textarea {
     height: 100%;
     width: 100%;
     resize: none;
-    padding: 14px;
+    padding: 0.875rem;
 }
 
 .contact-form-button {
     display: block;
-    width: 240px;
-    height: 65px;
+    width: 15rem;
+    height: 4.0625rem;
     margin: 0 auto;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     cursor: pointer;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-transform: uppercase;
     background-color: #fed136;
     font-weight: 700;
