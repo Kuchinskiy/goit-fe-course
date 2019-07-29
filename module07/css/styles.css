@@ -188,19 +188,20 @@ img {
     font-weight: 700;
     font-family: 'Montserrat';
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .subtitle-information {
     font-size: 16px;
     font-family: 'Noto Serif';
     text-align: center;
-    margin-top: 18px;
     color: #808080;
 }
 
 /* SECTION #1 */
 
 .page-information {
+    padding-top: 70px;
     padding-bottom: 100px;
 }
 
@@ -208,7 +209,6 @@ img {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    padding-top: 70px;
 }
 
 .list-name {
@@ -248,5 +248,35 @@ img {
 .list-name:nth-child(3):before {
     content: url(../img/Locked.png)
 }
+
+/* SECTION #2 */
+
+.title-section-color {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.subtitle-information {
+    margin-bottom: 75px;
+}
+
+.contact-section {
+    padding-top: 106px;
+    padding-bottom: 115px;
+    background-image: url(../img/bg-section.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
 
 
