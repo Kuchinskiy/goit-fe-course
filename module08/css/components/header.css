@@ -32,7 +32,8 @@
     padding: 10px 15px; 
 }
 
-.menu-link:hover {
+.menu-link:hover,
+.menu-link:focus {
     border: 2px solid #ffffff;
     border-radius: 20px;
 }
@@ -63,7 +64,24 @@
 
 .subtitle {
     display: block;
+    margin-bottom: 20px;
 }
 
+.header-btn-cross {
+    display: block;
+    margin: 0 auto;
+    font-family: 'MontserratB';
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #ff4e50;
+    border: none;
+    width: 282px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
 
-
+.list-cross {
+    padding-bottom: 138px;
+}
