@@ -1,10 +1,5 @@
 /* DEFAULT */
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -30,6 +25,8 @@ html {
 *,
 *::before,
 *::after {
+    margin: 0;
+    padding: 0;
     box-sizing: inherit;
 }
 
@@ -41,6 +38,10 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+a {
+    display: block;
 }
 
 .wrapper {
