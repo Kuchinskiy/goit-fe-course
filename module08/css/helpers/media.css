@@ -37,13 +37,23 @@
     .list-team:nth-last-child(-n + 2) {
         margin-bottom: 0;
     }
+
+    .page-main-section {
+        padding-bottom: 40px;
+    }
 }
 
 @media(min-width: 942px) {
-    /* .team-page-section {
-        display: flex;
-        justify-content: space-between;
-    } */
+   .team-list-section {
+       width: 100%;
+   }
 
+   .list-team:not(:last-child) {
+       margin-bottom: 0;
+   }
+
+   .page-main-section {
+    padding-bottom: 73px;
+   }
 }
 
