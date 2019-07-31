@@ -10,7 +10,11 @@
     margin-bottom: 16px;
 }
 
-.list-team {
+.team-list-section {
+    margin-bottom: 30px;
+}
+
+.list-team:not(:last-child) {
     margin-bottom: 30px;
 }
 

@@ -1,0 +1,43 @@
+@media(min-width: 768px) {
+    .flex-tablet {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    .title-section {
+        margin-bottom: 30px;
+    }
+
+    .site-name-link,
+    .page-header-list {
+        margin: 0;
+        padding: 0;
+    }
+
+    .team-list-section {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 470px;
+        margin: 0 auto;
+        list-style: none;
+    }
+
+    .team-list-section {
+        margin-bottom: 37px;
+    }
+
+    .list-team:not(:last-child) {
+        margin-bottom: 55px;
+    }
+
+    .list-team:nth-last-child(-n + 2) {
+        margin-bottom: 0;
+    }
+}
+
+
+

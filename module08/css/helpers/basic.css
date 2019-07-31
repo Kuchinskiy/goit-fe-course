@@ -55,7 +55,7 @@ a {
     }
 }
 
-@media (min-width: 1200) {
+@media (min-width: 942px) {
     .wrapper {
         width: 942px;
     }
