@@ -75,7 +75,7 @@
     color: #ffffff;
     background-color: #ff4e50;
     border: none;
-    width: 282px;
+    width: 280px;
     height: 40px;
     border-radius: 20px;
     cursor: pointer;
@@ -84,4 +84,10 @@
 
 .list-cross {
     padding-bottom: 138px;
+}
+
+.header-btn-cross:hover,
+.header-btn-cross:focus {
+    background-color: #ffffff;
+    color: #ff4e50;
 }
