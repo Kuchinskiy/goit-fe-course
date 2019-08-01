@@ -49,6 +49,12 @@
         margin-bottom: 37px;
     }
 
+    /* BOOTSTRAP */
+    .team-list {
+        margin-bottom: 0;
+    }
+    /* End */
+
     .list-team {
         margin-bottom: 55px;
     }

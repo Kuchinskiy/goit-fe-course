@@ -24,6 +24,12 @@
     margin-bottom: 30px;
 }
 
+/* BOOTSTRAP */
+.team-list {
+    margin-bottom: 30px;
+}
+/* End */
+
 .team-img-box {
     display: flex;
     flex-direction: column;
