@@ -7,15 +7,20 @@
     font-size: 22px;
     font-family: 'MontserratB';
     text-align: center;
+}
+
+/* BOOTSTRAP */
+.section-title {
     margin-bottom: 16px;
 }
+/* End */
 
 .team-list-section {
     margin-bottom: 30px;
     list-style: none;
 }
 
-.list-team:not(:last-child) {
+.list-team {
     margin-bottom: 30px;
 }
 
@@ -37,7 +42,6 @@
 }
 
 .desc-services {
-    width: 193px;
     font-size: 14px;
     font-family: 'RobotoL';
     text-align: center;

@@ -1,4 +1,10 @@
 @media(min-width: 768px) {
+    /* BOOTSTRAP */
+    .page-header {
+        padding-bottom: 234px;
+    }
+    /* End */
+
     .flex-tablet {
         display: flex;
         justify-content: space-between;
@@ -7,9 +13,17 @@
         margin-bottom: 150px;
     }
 
-    .title-section {
+    /* BOOTSTRAP */
+    .header-page {
+        margin-bottom: 0;
+    }
+    /* End */
+
+    /* BOOTSTRAP */
+    .section-title {
         margin-bottom: 30px;
     }
+    /* End */
 
     .site-name-link,
     .page-header-list {
@@ -17,11 +31,16 @@
         padding: 0;
     }
 
+    /* BOOTSTRAP */
+    .link-name-site {
+        margin-bottom: 150px;
+    }
+    /* End */
+
     .team-list-section {
         display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
-        width: 470px;
+        width: 492px;
         margin: 0 auto;
         list-style: none;
     }
@@ -30,12 +49,8 @@
         margin-bottom: 37px;
     }
 
-    .list-team:not(:last-child) {
+    .list-team {
         margin-bottom: 55px;
-    }
-
-    .list-team:nth-last-child(-n + 2) {
-        margin-bottom: 0;
     }
 
     .page-main-section {
