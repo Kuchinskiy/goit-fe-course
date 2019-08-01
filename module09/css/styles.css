@@ -1,2 +1,7 @@
-@import url(../css/normalize.css);
-@import url(../css/helpers/bootstrap-grid.css);
+@import url('../css/normalize.css');
+@import url('../css/helpers/bootstrap-grid.css');
+@import url('./helpers/basic.css');
+@import url('./helpers/typography.css');
+@import url('./components/header.css');
+@import url('./components/main.css');
+@import url('./helpers/media.css');

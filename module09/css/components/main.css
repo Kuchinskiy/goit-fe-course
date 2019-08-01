@@ -1,0 +1,102 @@
+.page-main-section {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.title-section {
+    font-size: 22px;
+    font-family: 'MontserratB';
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.team-list-section {
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.list-team:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.team-img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.title-name {
+    font-size: 14px;
+    font-family: 'MontserratB';
+    margin-bottom: 20px;
+}
+
+.desc-services {
+    width: 193px;
+    font-size: 14px;
+    font-family: 'RobotoL';
+    text-align: center;
+    margin: 0 auto;
+    line-height: 22px;
+}
+
+.image-box::after {
+    display: block;
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+}
+
+.bradley::after {
+    background-image: url(../../img/icons/icons-tv-bradley.png);
+    background-color: #ff4e50;
+}
+
+.heather::after {
+    background-image: url(../../img/icons/icons-tea-heather.png);
+    background-color: #1cd7ad;
+}
+
+.lucas::after {
+    background-image: url(../../img/icons/icons-bulb-lucas.png);
+    background-color: #ffa507;
+}
+
+.hunter::after {
+    background-image: url(../../img/icons/icons-telega-hunter.png);
+    background-color: #4e73db;
+}
+
+.team-btn-section {
+    display: block;
+    font-size: 14px;
+    font-family: 'MontserratB';
+    color: #ff4e50;
+    border: none;
+    width: 280px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid #ff4e50;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.team-btn-section:hover,
+.team-btn-section:focus {
+    background-color: #ff4e50;
+    color: #ffffff;
+}
