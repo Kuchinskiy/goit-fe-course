@@ -1,0 +1,62 @@
+/* DEFAULT */
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: block;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        width: 660px;
+    }
+}
+
+@media (min-width: 942px) {
+    .wrapper {
+        width: 942px;
+    }
+}
