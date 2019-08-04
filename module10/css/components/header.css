@@ -3,7 +3,6 @@
 .header-main {
     padding-top: 40px;
     padding-bottom: 230px;
-    /* margin-bottom: 120px; */
     color: #ffffff;
     background-image: linear-gradient( 0deg,
     rgba(252,227,138, .9) 0%,
@@ -12,7 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 .nav-header__title-page {
@@ -24,4 +23,101 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-bottom: 164px;
+}
+
+.nav-list-header__color-icons {
+    width: 23px;
+    height: 16px;
+    fill: #ffffff;
+}
+
+.nav-header__title-page--logo {
+    font-size: 30px;
+    font-family: 'MontserratB';
+    color: #ffffff;
+    animation: logo-rotate 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo-rotate {
+    from {
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.nav-list-header {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list-header__list-menu {
+    min-height:  40px;
+    transition: all .5s linear;
+}
+
+.nav-list-header__menu-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'MontserratR';
+    font-weight: 700;
+}
+
+.nav-list-header__menu-link:hover {
+    color: #fce38a;
+}
+
+.nav-list-header__menu-link:hover::after {
+    display: block;
+    content: '';
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #fce38a;
+}
+
+.nav-list-header__list-menu:hover {
+    transform: scale(1.3);
+}
+
+.header-main__title {
+    font-size: 72px;
+    font-family: 'Kaushan Script';
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-main__subtitle {
+    width: 800px;
+    font-family: 'MontserratB';
+    font-size: 150px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+}
+
+.header-main__button {
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    padding: 10px 28px;
+    background: none;
+    border: 2px solid #ffffff;
+}
+
+.header-main__button:hover {
+    color: #fce38a;
+    border-color: #fce38a;
+    background-color: #ffffff;
 }
