@@ -40,13 +40,12 @@ img {
     height: auto;
 }
 
-.link {
+a {
     display: block;
-    text-decoration: none;
 }
 
 .wrapper {
-    width: 1200px;
+    width: 320px;
     margin: 0 auto;
 }
 
