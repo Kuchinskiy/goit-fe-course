@@ -40,15 +40,31 @@ img {
     height: auto;
 }
 
+/* BASIC RULES GLOBAL CLASS */
 .link {
     display: block;
     text-decoration: none;
 }
 
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} 
+
+.button {
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
+/* END */
+
 .wrapper {
     width: 1200px;
     margin: 0 auto;
 }
+
+/* MEDIA */
 
 @media (min-width: 768px) {
     .wrapper {
