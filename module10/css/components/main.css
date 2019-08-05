@@ -144,6 +144,22 @@
 
 /* ICONS SOCIAL OVERLAY */
 
+.social-list__img {
+    width: 28px;
+    height: 28px;
+    fill: #f38181;
+}
 
+.social-list__link {
+    display: flex;
+} 
+
+.social-list {
+    list-style: none;
+}
+
+.list-team__item {
+    list-style: none;
+}
 
 
