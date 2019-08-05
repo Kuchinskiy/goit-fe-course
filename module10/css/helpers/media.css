@@ -1,0 +1,10 @@
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+   .header-main {
+    background-image: linear-gradient( 0deg,
+    rgba(252,227,138, .9) 0%,
+    rgba(243,129,129, .9) 100%),
+    url(../../img/bg-section@2x.jpg);
+   }
+}

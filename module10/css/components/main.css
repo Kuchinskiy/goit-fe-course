@@ -1,0 +1,149 @@
+/* SECTION #1 */
+
+.main-content {
+    padding-top: 45px;
+    padding-bottom: 90px;
+}
+
+.main-section-content {
+    padding-bottom: 90px;
+}
+
+.main-section-content__title--span {
+    display: block;
+    text-align: center;
+    text-transform: none;
+    font-size: 24px;
+    font-family: 'Kaushan Script';
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.main-section-content__title {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'MontserratB';
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.main-section-content__title::after {
+    position: absolute;
+    content: '';
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+/* PARAGRAPH TEXT ICONS */
+
+.list-item-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list-section {
+    position: relative;
+    flex-basis: 382px;
+    padding-left: 82px;
+}
+
+.list-section::before {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+}
+
+.list-section:nth-child(1):before {
+    content: url(../../img/icons/alarm.svg);
+}
+
+.list-section:nth-child(2):before {
+    content: url(../../img/icons/line_graph.svg);
+}
+
+.list-section:nth-child(3):before {
+    content: url(../../img/icons/computer.svg);
+}
+
+.list-section:nth-child(4):before {
+    content: url(../../img/icons/book.svg);
+}
+
+.list-section:nth-child(5):before {
+    content: url(../../img/icons/home.svg);
+}
+
+.list-section:nth-child(6):before {
+    content: url(../../img/icons/image.svg);
+}
+
+.list-section__paragraph-title  {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'MontserratR';
+    margin-bottom: 20px;
+}
+
+.list-section:not(:nth-last-child(-n + 3)) {
+    margin-bottom: 100px;
+}
+
+.list-section__text {
+    font-family: 'RobotoR';
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+/* SECTION #2 */
+
+.main-section-team__title--span {
+    display: block;
+    text-align: center;
+    text-transform: none;
+    font-size: 24px;
+    font-family: 'Kaushan Script';
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.main-section-team__title {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'MontserratB';
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.main-section-team__title::after {
+    position: absolute;
+    content: '';
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.main-section-team__text {
+    font-size: 14px;
+    font-family: 'RobotoR';
+    text-align: center;
+    color: #b3b3b3;
+    margin-bottom: 90px;
+}
+
+/* ICONS SOCIAL OVERLAY */
+
+
+
+
