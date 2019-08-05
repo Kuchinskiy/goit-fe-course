@@ -70,6 +70,18 @@
     color: #fce38a;
 }
 
+.nav-list-header__btn-basket:hover
+.nav-list-header__color-icons {
+    fill: #fce38a;
+}
+
+.nav-list-header__btn-glass:hover
+.nav-list-header__color-icons {
+    fill: #fce38a;
+}
+
+
+
 .nav-list-header__menu-link:hover::after {
     display: block;
     content: '';
