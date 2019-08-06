@@ -167,6 +167,10 @@
     transition: all 200ms;
 }
 
+.list-team__item:hover .list-team__overlay {
+    opacity: 1;
+}
+
 .list-team__item:hover .command {
     transform: translate(-10px, -10px);
 }
@@ -184,6 +188,10 @@
     width: 28px;
     height: 28px;
     fill: #f38181;
+}
+
+.social-list__item:hover .social-list__img {
+    fill: #fff;
 }
 
 .social-list__item {
@@ -208,6 +216,12 @@
     height: 56px;
     background-color: #fce38a;
 } 
+
+.social-list__link:hover {
+    background-color: #f38181;
+}
+
+
 
 .team-list__name {
     font-size: 14px;
