@@ -80,8 +80,6 @@
     fill: #fce38a;
 }
 
-
-
 .nav-list-header__menu-link:hover::after {
     display: block;
     content: '';
