@@ -1,0 +1,52 @@
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 64px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.context__about {
+    font-family: 'MontserratR';
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.context__link--color {
+    color: #f9c0c0;
+}
+
+/* BUTTON */
+
+.form-mail {
+    display: flex;
+}
+
+.form-mail__pass {
+    height: 40px;
+    width: 230px;
+    padding: 10px 8px;
+    font-family: 'RobotoL';
+    font-style: italic;
+    border: 1px solid #e5e5e5;
+}
+
+.form-mail__pass::placeholder {
+    color: #b3b3b3;
+}
+
+.form-mail__subscribe {
+    height: 40px;
+    width: 150px;
+    border: none;
+    color: #ffffff;
+    font-family: 'MontserratB';
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #95e1d3;
+}
+
+.form-mail__subscribe:hover {
+    color: #000000;
+}
