@@ -4,6 +4,15 @@
     padding-top: 40px;
     padding-bottom: 230px;
     color: #ffffff;
+    background-image: -webkit-gradient( linear,
+    left bottom, left top,
+    from(rgba(252,227,138, .7)),
+    to(rgba(243,129,129, .7))),
+    url(../../img/bg-section.jpg);
+    background-image: -o-linear-gradient( bottom,
+    rgba(252,227,138, .7) 0%,
+    rgba(243,129,129, .7) 100%),
+    url(../../img/bg-section.jpg);
     background-image: linear-gradient( 0deg,
     rgba(252,227,138, .7) 0%,
     rgba(243,129,129, .7) 100%),
@@ -20,9 +29,15 @@
 }
 
 .nav-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
     margin-bottom: 164px;
 }
 
@@ -36,26 +51,44 @@
     font-size: 30px;
     font-family: 'MontserratB';
     color: #ffffff;
-    animation: logo-rotate 5s;
-    animation-iteration-count: infinite;
+    -webkit-animation: logo-rotate 5s;
+            animation: logo-rotate 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes logo-rotate {
+    from {
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
 }
 
 @keyframes logo-rotate {
     from {
     }
     to {
-      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
     }
 }
 
 .nav-list-header {
     width: 650px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .nav-list-header__list-menu {
     min-height:  40px;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
     transition: all .5s linear;
 }
 
@@ -89,7 +122,9 @@
 }
 
 .nav-list-header__list-menu:hover {
-    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+            transform: scale(1.3);
 }
 
 .header-main__title {
@@ -131,3 +166,4 @@
     border-color: #fce38a;
     background-color: #ffffff;
 }
+

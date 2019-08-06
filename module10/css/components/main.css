@@ -33,7 +33,9 @@
     content: '';
     bottom: -40px;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     width: 60px;
     height: 3px;
     background-color: #f38181;
@@ -42,14 +44,19 @@
 /* PARAGRAPH TEXT ICONS */
 
 .list-item-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 
 .list-section {
     position: relative;
-    flex-basis: 382px;
+    -ms-flex-preferred-size: 382px;
+        flex-basis: 382px;
     padding-left: 82px;
 }
 
@@ -128,7 +135,9 @@
     content: '';
     bottom: -40px;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     width: 60px;
     height: 3px;
     background-color: #f38181;
@@ -145,32 +154,57 @@
 /* ICONS SOCIAL OVERLAY */
 
 .list-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .list-team__command {
     position: relative;
     width: 380px;
     /* height: auto; */
+    -webkit-transition: all 200ms;
+    -o-transition: all 200ms;
     transition: all 200ms;
 }
 
 .list-team__overlay {
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     opacity: 0;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    background-image: -webkit-gradient(
+         linear, 
+         left bottom, left top, 
+         from(rgba(252,227,138, 0.7)), 
+         to(rgba(243,129,129, 0.7))
+         );
+    background-image: -o-linear-gradient(
+         bottom, 
+         rgba(252,227,138, 0.7) 0%, 
+         rgba(243,129,129, 0.7) 100%
+         );
     background-image: linear-gradient(
          0deg, 
          rgba(252,227,138, 0.7) 0%, 
          rgba(243,129,129, 0.7) 100%
          );
+    -webkit-transition: all 200ms;
+    -o-transition: all 200ms;
     transition: all 200ms;
 }
 
@@ -179,12 +213,15 @@
 }
 
 .list-team__item:hover .list-team__command {
-    transform: translate(-10px, -10px);
+    -webkit-transform: translate(-10px, -10px);
+        -ms-transform: translate(-10px, -10px);
+            transform: translate(-10px, -10px);
 }
 
 .list-team__item:hover .list-team__command {
     opacity: 1;
-    box-shadow: 10px 10px #95e1d3;
+    -webkit-box-shadow: 10px 10px #95e1d3;
+            box-shadow: 10px 10px #95e1d3;
 }
 
 .list-team__item {
@@ -218,19 +255,31 @@
 }
 
 .social-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     list-style: none;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 .social-list__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 56px;
     height: 56px;
     background-color: #fce38a;
@@ -239,8 +288,6 @@
 .social-list__link:hover {
     background-color: #f38181;
 }
-
-
 
 .team-list__name {
     font-size: 14px;
