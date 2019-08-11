@@ -53,45 +53,45 @@
         justify-content: space-around;
 }
 
-.list-section {
+.list-item-icons__list-section {
     position: relative;
     -ms-flex-preferred-size: 382px;
         flex-basis: 382px;
     padding-left: 82px;
 }
 
-.list-section::before {
+.list-item-icons__list-section::before {
     top: 0;
     left: 0;
     position: absolute;
     display: inline-block;
 }
 
-.list-section:nth-child(1):before {
+.list-item-icons__list-section:nth-child(1):before {
     content: url(../../img/icons/alarm.svg);
 }
 
-.list-section:nth-child(2):before {
+.list-item-icons__list-section:nth-child(2):before {
     content: url(../../img/icons/line_graph.svg);
 }
 
-.list-section:nth-child(3):before {
+.list-item-icons__list-section:nth-child(3):before {
     content: url(../../img/icons/computer.svg);
 }
 
-.list-section:nth-child(4):before {
+.list-item-icons__list-section:nth-child(4):before {
     content: url(../../img/icons/book.svg);
 }
 
-.list-section:nth-child(5):before {
+.list-item-icons__list-section:nth-child(5):before {
     content: url(../../img/icons/home.svg);
 }
 
-.list-section:nth-child(6):before {
+.list-item-icons__list-section:nth-child(6):before {
     content: url(../../img/icons/image.svg);
 }
 
-.list-section__paragraph-title  {
+.list-item-icons__list-section--title  {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -99,11 +99,11 @@
     margin-bottom: 20px;
 }
 
-.list-section:not(:nth-last-child(-n + 3)) {
+.list-item-icons__list-section:not(:nth-last-child(-n + 3)) {
     margin-bottom: 100px;
 }
 
-.list-section__text {
+.list-item-icons__list-section--text {
     font-family: 'RobotoR';
     font-size: 14px;
     color: #b3b3b3;

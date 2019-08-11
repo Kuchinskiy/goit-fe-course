@@ -76,7 +76,7 @@
 }
 
 .nav-list-header {
-    width: 650px;
+    min-width: 650px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
